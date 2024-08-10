@@ -64,21 +64,21 @@ const TodoListApp = () => {
   }, [showConfetti]);
 
   return (
-    <div className="todo-container relative z-20 text-black align-center bg-white w-5/12 rounded-bl-2xl rounded-br-2xl">
+    <div className="todo-container relative z-20 text-black align-center bg-white w-[90%] md:w-[70%]  lg:w-[50%] mx-auto rounded-bl-2xl rounded-br-2xl">
       <h1 className="text-5xl text-center bg-gray-600 text-white p-4">
         TODO LIST
       </h1>
 
-      <div className="w-[90%] mx-auto p-8 ">
+      <div className="w-[100%] md:w-[90%] mx-auto p-8 ">
         <div className="flex justify-between align-center p-2">
           <input
-            className="w-[90%] border outline-0 p-4 text-2xl"
+            className="w-[85%] md:w-[90%] border outline-0 p-4 text-lg md:tex-2xl"
             type="text"
             value={inputValue}
             onChange={handleInputChange}
             placeholder="Add a new task"
           />
-          <div className="w-[10%] flex justify-center align-center">
+          <div className="w-[15%] md:w-[10%] flex justify-center align-center">
             <img
               className="bg-gray-600"
               onClick={addTodoItem}
