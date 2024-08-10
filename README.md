@@ -46,7 +46,7 @@ Today's focus was on mastering state management, event handling, and list render
 
 ## Screenshots:
 ![Screenshot 1](./src/assets/images/toDo_desktop.PNG)
-![Screenshot 2](./src/assets/images/toDo_mobile.png)
+![Screenshot 2](./src/assets/images/toDo_mobile.PNG)
 
 ## Live Link:
 [View Live Demo](https://simple-to-do-app-eight.vercel.app/)
