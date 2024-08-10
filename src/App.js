@@ -1,9 +1,9 @@
 import './App.css';
-
+import TodoListApp from './components/todoListApp';
 function App() {
   return (
     <div className="App">
-      To Do App
+      <TodoListApp />
     </div>
   );
 }
