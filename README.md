@@ -1,4 +1,63 @@
-# Getting Started with Create React App
+# Day 7: To-Do List App
+
+## Challenge Task:
+Today's focus was on mastering state management, event handling, and list rendering in React JS. The goal was to build a functional to-do list app that enhances understanding of React components and user interactions.
+
+## Learning Session:
+
+### Concepts Covered:
+- **State in React:** Managing component state to handle dynamic data.
+- **Handling Events in React:** Responding to user actions such as clicks and input changes.
+- **Rendering Lists in React:** Dynamically rendering lists based on state data.
+
+### Key Points:
+- **State Management:** Learn how to manage and update state within a component.
+- **Event Handling:** Handle user input and interaction efficiently.
+- **Dynamic Rendering:** Render lists of items based on current state.
+
+## Activity:
+
+### Steps:
+1. **Set Up React Environment:**
+   Initialize a React app using `create-react-app` or your preferred setup.
+
+2. **Create `TodoListApp` Component:**
+   Build the core component to handle to-do items.
+
+3. **Build the Form:**
+   - Create an input field for entering new to-do items.
+   - Add a button to submit the new to-do item.
+
+4. **Implement State Management:**
+   - Manage the input value and the list of to-do items using React's `useState` hook.
+   - Handle adding new items to the list.
+
+5. **Render the List:**
+   - Dynamically render the list of to-do items below the form.
+   - Add functionality to mark items as completed and delete items.
+
+6. **Style the Application:**
+   - Use Tailwind CSS for styling to make the app visually appealing.
+
+## Technologies Used:
+- **React JS:** For building the user interface.
+- **Tailwind CSS:** For styling the application.
+- **JavaScript:** For handling state and events.
+
+## Screenshots:
+![Screenshot 1](./src/assets/images/toDo_desktop.PNG)
+![Screenshot 2](./src/assets/images/toDo_mobile.png)
+
+## Live Link:
+[View Live Demo](https://simple-to-do-app-eight.vercel.app/)
+
+## Setup Instructions:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/todo-list-app.git
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
